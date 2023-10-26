@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hiss1 står " + elevator1.where());
         System.out.println("Hiss2 sgår " + elevator2.where());
 
-        elevator1.goTo(6);
+        elevator1.goTo(4);
         elevator2.goTo(1);
 
         System.out.println(elevator1.where());
