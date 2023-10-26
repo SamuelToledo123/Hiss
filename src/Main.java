@@ -6,9 +6,11 @@ public class Main {
         Elevator elevator2 = new Elevator(5);
 
         System.out.println("Hiss1 står " + elevator1.where());
-        System.out.println("Hiss2 sgår " + elevator2.where());
+        System.out.println("Hiss2 står " + elevator2.where());
 
         elevator1.goTo(4);
+        elevator2.goTo(8);
+        elevator1.goTo(10);
         elevator2.goTo(1);
 
         System.out.println(elevator1.where());
